@@ -30,7 +30,7 @@ pip install pandas numpy
 - ├─ Household_Income_City.csv
 - ├─ Household_Income_State.csv
 - ├─ Airline_Delay_Cause.csv
-- ├─ NOAA_2024.csv # Downloaded from NOAA, see instructions below
+- ├─ NOAA_2024.csv # > **⚠ WARNING:** The NOAA dataset is very large. Download `2024.csv.gz`, extract it to `NOAA_2024.csv`, and place it in this folder.
 - main.py
 - processed/
 - └─ master_dataset.csv # Output file
