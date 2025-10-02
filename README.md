@@ -21,6 +21,7 @@ Install dependencies:
 ```bash
 pip install pandas numpy
 ```
+## Project Structure
 Project_Data/
 ├─ APT_BASE.csv
 ├─ APT_RWY.csv
@@ -29,11 +30,10 @@ Project_Data/
 ├─ Household_Income_City.csv
 ├─ Household_Income_State.csv
 ├─ Airline_Delay_Cause.csv
-├─ NOAA_2024.csv   # Downloaded from NOAA, see instructions below
+├─ NOAA_2024.csv # Downloaded from NOAA, see instructions below
 main.py
 processed/
-└─ master_dataset.csv   # Output file
-## Datasets
+└─ master_dataset.csv # Output file
 
 ### Local CSVs
 - `APT_BASE.csv`, `APT_RWY.csv` – Airport info  
