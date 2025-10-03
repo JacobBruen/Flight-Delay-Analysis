@@ -54,10 +54,15 @@ The NOAA Global Historical Climatology Network (GHCN) daily data is too large fo
 ---
 
 ## How to Run
-> **Note:** Update the file paths in `main.py` to match your local setup if your dataset files are in a different folder.
+> **Note:** Update the file paths in `main.py` and `Clean.py` to match your local setup if your dataset files are in a different folder.
 1. Ensure all datasets are in the `Project_Data/` folder.  
-2. Run the main script:
+2. Run the Main script:
 
 ```bash
 python main.py
+```
+3. Once the program finishes and produces "master_dataset.csv," update the path on clean.py to match.
+4. Run  the Clean script:
+```bash
+python Clean.py
 ```
