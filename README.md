@@ -32,8 +32,10 @@ pip install pandas numpy
 - ├─ Airline_Delay_Cause.csv
 - ├─ NOAA_2024.csv # > **⚠ WARNING:** The NOAA dataset is very large. Download `2024.csv.gz`, extract it to `NOAA_2024.csv`, and place it in this folder. Follow the instructions below. 
 - main.py
+- Clean.py
 - processed/
 - └─ master_dataset.csv # Output file
+- └─ clean_master.csv # Output file
 
 ### Local CSVs
 - `APT_BASE.csv`, `APT_RWY.csv` – Airport info  
